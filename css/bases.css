@@ -1,5 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&family=Lato:wght@300;400;700&display=swap');
+
+:root {
+
+    --primary-color: #8B4513;
+    --secondary-color: #D2691E;
+    --accent-color: #F5DEB3;
+    --text-color: #2F1B10;
+    --light-cream: #FFF8DC;
+    
+
+    --font-title: 'Playfair Display', serif;
+    --font-text: 'Lato', sans-serif;
+    
+    
+    --border-main: 2px solid var(--secondary-color);
+    --border-thick: 4px solid var(--primary-color);
+    --shadow-main: 6px 6px 6px rgba(0, 0, 0, 0.4);
+}
+
 html, body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: var(--font-text);
+}
+
+
+header, #histoire, #specialites, #galerie, #contact {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas:
+        "headerall"
+        "content";
+}
+
+.headerall {
+    grid-area: headerall;
+}
+
+.content {
+    grid-area: content;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-title);
 }
