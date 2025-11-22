@@ -65,3 +65,23 @@ header .headerall {
     background: transparent;
     border: none;
 }
+
+.bordure {
+    border: var(--border-main);
+    border-radius: 12px;
+}
+
+.bordure2 {
+    border-radius: 25px;
+    border: var(--border-thick);
+}
+
+.ombre {
+    box-shadow: var(--shadow-main);
+}
+
+.confpic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
