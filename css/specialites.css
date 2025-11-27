@@ -48,20 +48,24 @@
     height: 100%;
     width: 100%;
     transition: bottom 0.8s ease-in-out;
-    padding: 1rem;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;  /* Aligne le span EN HAUT */
 }
 
 #explications div span {
-    background: rgba(255, 255, 255, 0.72);
-    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px 16px 0 0;  /* Arrondis seulement EN HAUT */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     font-size: 1.5rem;
     font-weight: bolder;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem 2rem;
     display: block;
+    width: 100%;
 }
+
 
 #specialites:has(#products-list .product:hover) #products-list .product:hover {
     color: black;
@@ -78,3 +82,12 @@
 #specialites:has(#products-list .product:nth-child(8):hover) #explications div:nth-child(8) {
     bottom: 0;
 }
+
+#explications div:nth-child(1) { background-image: url("../image/expresso.jpg"); }
+#explications div:nth-child(2) { background-image: url("../image/viennois.jpg"); }
+#explications div:nth-child(3) { background-image: url("../image/chocolat-c.jpg"); }
+#explications div:nth-child(4) { background-image: url("../image/the.jpg"); }
+#explications div:nth-child(5) { background-image: url("../image/croissant.jpg"); }
+#explications div:nth-child(6) { background-image: url("../image/millefeuille.jpg"); }
+#explications div:nth-child(7) { background-image: url("../image/tarte.jpg"); }
+#explications div:nth-child(8) { background-image: url("../image/eclai.jpg"); }
