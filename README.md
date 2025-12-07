@@ -50,8 +50,10 @@ Le site a **6 pages** :
 - **CSS3** (shadows, flex, grid, blur, transitions...)  
 - **FontAwesome 5.10.0**
 - **Google Fonts**
+  
+---
 
-### Contraintes 
+## Contraintes 
 
 - HTML5 et CSS3 uniquement
 
@@ -79,16 +81,17 @@ Le site a **6 pages** :
 
 - image : (33)
 
+---
+## Comment télécharger le projet:
 
-### Comment télécharger le projet:
 
-1) telecharger le zip en appuyant sur code
+1)telecharger le zip en appuyant sur code
 
 2)Extraire le dossier
 
 3)Cloner le dépôt (sur vscode par exemple)
 
-
+---
 
 
 
